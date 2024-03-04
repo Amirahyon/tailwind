@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+
+html, body{
+    @apply m-0 p-0 bg-white w-[100%] h-[100%] overflow-auto;
+}
+
+*{
+    box-sizing: border-box
+}
+.menu{
+    display: flex;
+    position: fixed;
+    right: 1rem;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+.Icon{
+    position: fixed;
+    top: 0;
+}
+
+.hamburger{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    /* z-index: 100; */
+}
+
+.show-menu{
+    transform: translateY(0)
+}
+
+:root{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+    :root{
+        background-color: red;
+        font-size: 12px
+    }
+}
+
+@tailwind utilities;

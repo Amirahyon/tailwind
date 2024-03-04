@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- first section -->
+    <section>
+        <!-- nav bar of lg -->
+        <ul class="mt-[1.68rem] mr-[3.75rem] lg:flex hidden items-center justify-end gap-[2.06rem] list-none font-medium">
+            <li>
+                <a href="#" class="text-[#FF6464]">Home</a>
+            </li>
+            <li>
+                <a href="./blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="./work.html">Works</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <!-- nav bar of small screen -->
+        <div class="menu lg:hidden flex justify-between w-[100%] h-[10%]">
+            <ul class="mt-[1.68rem] mx-[3.75rem] list-none font-medium">
+                <li>
+                    <a href="#" class="text-[#FF6464]">Home</a>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="./work.html">Works</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <img src="image/close-line.svg" alt="close" class="close-icon w-[2rem] h-[2rem] mt-[1rem] mr-[1rem]">
+        </div>
+        <!-- hamburger -->
+        <div class="Icon lg:hidden block w-[100%] h-[3.13rem] bg-white">
+            <button class="hamburger w-[2rem] h-[2rem]">
+                <img src="image/menu.svg" alt="menu" class="menu-icon">
+            </button>
+        </div>
+        <!-- content of section 1 in lg -->
+        <div class="mt-[9.87rem] lg:flex hidden justify-between mb-[4.43rem] mx-[9.25rem]">
+            <div class="w-[31.6rem]">
+                <h1 class="text-[2.75rem] font-bold">Hi, I am John,<br>
+                Creative Technologist</h1>
+                <p class="mt-[2.5rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="mt-[2.38rem] bg-[#FF6464] text-white
+                 text-[1.25rem] font-medium w-[13rem] h-[2.94rem] pt-[0.56rem]pb-[1.06rem] rounded-[0.12rem]">Download Resume</button>
+            </div>
+            <div class="w-[15.18rem] h-[15.18rem]">
+                <img src="image/image.svg" alt="passport" class="mr-[9.3rem] w-[100%] h-[100%]">
+            </div>
+        </div>
+        <!-- contents of section 1 in small screen -->
+        <div class="mt-[3rem] lg:hidden block mb-[3.69rem]">
+            <div class="w-[10.9rem] h-[11.25rem] mx-auto">
+                <img src="image/image.svg" alt="passport" class="mr-[9.3rem] w-[100%] h-[100%]">
+            </div>
+            <div class="w-[31.6rem] mt-[2.13rem] mx-auto">
+                <h1 class="text-[2.75rem] font-bold w-[19.5rem] text-center mx-auto">Hi, I am John,<br>
+                Creative Technologist</h1>
+                <p class="mt-[1.3rem] w-[20.5rem] text-center mx-auto">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <div class="w-[13rem] h-[2.94rem] mx-auto">
+                    <button class="download mt-[1.69rem] bg-[#FF6464] text-white text-[1.25rem] font-medium w-[100%] h-[100%]  pt-[0.56rem] pb-[1.06rem] rounded-[0.12rem]">Download Resume</button>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!-- second section in lg-->
+    <section class="bg-[#EDF7FA] w-[100%] h-[24.75rem] lg:block hidden">
+        <!-- contents of section 2 -->
+        <div class="mx-auto w-[53.5rem]">
+            <!-- the top part -->
+            <div class="flex justify-between h-[4.31rem]">
+                <p class="w-[8.06rem] h-[3.75rem] pt-[1rem] mt-[0.44rem] mb-[0.13rem] text-[#21243D] font-semibold text-xl">Recent posts</p>
+                <a href="#" class="w-[13rem] h-[1.25rem] text-[#00A8CC] text-end mt-[1.69rem] mb-[1.38rem]">View all</a>
+            </div>
+            <!-- the main contents -->
+            <div class="flex justify-between mx-auto">
+                <!-- first box -->
+                <div class="bg-white w-[26.13rem] h-[18.44rem]">
+                    <h1 class="mt-[1.5rem] w-[23.38rem] font-bold text-2xl h-[5.31rem] mx-auto">Making a design system from scratch</h1>
+                    <div class="flex gap-[1.63rem] mt-[1.13rem] w-[23.38rem] h-[2.13rem] mx-auto">
+                        <p>12 Feb 2020</p>
+                        <img src="./image/stroke.svg" alt="" class="h-[1.31rem]">
+                        <p class="text-left">Design, Pattern</p>
+                    </div>
+                    <p class="w-[23rem] h-[7.31rem] mx-auto mt-[0.69rem] mb-[0.44rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <!-- second box -->
+                <div class="bg-white w-[26.13rem] h-[18.44rem]">
+                    <h1 class="mt-[1.5rem] w-[23.38rem] font-bold text-2xl h-[5.31rem] mx-auto">Creating pixel perfect icons in Figma</h1>
+                    <div class="flex gap-[1.63rem] mt-[1.13rem] w-[23.38rem] h-[2.13rem] mx-auto">
+                        <p>12 Feb 2020</p>
+                        <img src="./image/stroke.svg" alt="" class="h-[1.31rem]">
+                        <p class="text-left">Figma, Icon Design</p>
+                    </div>
+                    <p class="w-[23rem] h-[7.31rem] mx-auto mt-[0.69rem] mb-[0.44rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- second section in small screen -->
+    <section class="bg-[#EDF7FA] w-[100%] h-[40.44rem] lg:hidden pt-[0.94rem]">
+        <!-- contents -->
+        <div class="mx-auto w-[23.44rem]">
+            <a href="" class="w-[6.56rem] h-[3.75rem] mx-auto pt-[2rem] mt-[0.44rem] mb-[0.13rem] text-[#21243D] font-semibold">Recent posts</a>
+            <!-- main contents -->
+            <div class="mx-auto mb-[1.06rem]">
+                <!-- first box -->
+                <div class="bg-white w-[22.13rem] h-[16.63rem]">
+                    <h1 class="mt-[1.5rem] w-[20.44rem] font-bold text-2xl h-[5.31rem] mx-auto">Making a design system from scratch</h1>
+                    <div class="flex gap-[1.63rem] mt-[1.13rem] w-[20.44rem] h-[2.13rem] mx-auto">
+                        <p>12 Feb 2020</p>
+                        <img src="./image/stroke.svg" alt="" class="h-[1.31rem]">
+                        <p class="text-left">Design, Pattern</p>
+                    </div>
+                    <p class="w-[19.63rem] h-[7.31rem] mx-auto mt-[0.69rem] mb-[0.44rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <!-- second box -->
+                <div class="bg-white w-[22.13rem] h-[16.63rem]">
+                    <h1 class="mt-[1.5rem] w-[20.44rem] font-bold text-2xl h-[5.31rem] mx-auto">Creating pixel perfect icons in Figma</h1>
+                    <div class="flex gap-[1.63rem] mt-[1.13rem] w-[20.44rem] h-[2.13rem] mx-auto">
+                        <p>12 Feb 2020</p>
+                        <img src="./image/stroke.svg" alt="" class="h-[1.31rem]">
+                        <p class="text-left">Figma, Icon Design</p>
+                    </div>
+                    <p class="w-[19.63rem] h-[7.31rem] mx-auto mt-[0.69rem] mb-[0.44rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- third section in lg -->
+    <section class="lg:block hidden">
+        <!-- main contents -->
+        <div class="w-[53.63rem] mx-auto mt-[0.94rem]">
+            <a href="" class="w-[9.5rem] h-[3.75rem] font-medium text-lg">Featured works</a>
+            <!-- first div -->
+            <div class="mt-[1.38rem] flex justify-between">
+                <img src="./image/rec1.svg" alt="" class="w-[15.38rem] h-[11.25rem]">
+                <div class="w-[37.13rem] h-[11.25rem]">
+                    <p class="w-[19.06rem] h-[2.75rem] font-bold text-xl">Designing Dashboards</p>
+                    <div class="flex gap-[1.63rem]">
+                        <button class="w-[3.88rem] h-[1.56rem] bg-[#142850] text-white rounded-[1rem] mt-[1.13rem]">2020</button>
+                        <p class="w-[23.38rem] h-[2.13rem] mt-[1rem] text-[#8695A4]">Dashboard</p>
+                    </div>
+                    <p class="w-[37.13rem] h-[5.81rem] mt-[1.2rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <!-- line break  -->
+            <img src="./image/line.svg" alt="" class="mt-[0.94rem]">
+            <!-- second div  -->
+            <div class="mt-[1.38rem] flex justify-between">
+                <img src="./image/rec2.svg" alt="" class="w-[15.38rem] h-[11.25rem]">
+                <div class="w-[37.13rem] h-[11.25rem]">
+                    <p class="w-[19.06rem] h-[2.75rem] font-bold text-xl">Vibrant Portraits of 2020</p>
+                    <div class="flex gap-[1.63rem]">
+                        <button class="w-[3.88rem] h-[1.56rem] bg-[#142850] text-white rounded-[1rem] mt-[1.13rem]">2018</button>
+                        <p class="w-[23.38rem] h-[2.13rem] mt-[1rem] text-[#8695A4]">Illustration</p>
+                    </div>
+                    <p class="w-[37.13rem] h-[5.81rem] mt-[1.2rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <!-- line break  -->
+            <img src="./image/line.svg" alt="" class="mt-[0.94rem]">
+            <!-- third div  -->
+            <div class="mt-[1.38rem] flex justify-between">
+                <img src="./image/rec3.svg" alt="" class="w-[15.38rem] h-[11.25rem]">
+                <div class="w-[37.13rem] h-[11.25rem]">
+                    <p class="w-[19.06rem] h-[2.75rem] font-bold text-xl">36 Days of Malayalam type</p>
+                    <div class="flex gap-[1.63rem]">
+                        <button class="w-[3.88rem] h-[1.56rem] bg-[#142850] text-white rounded-[1rem] mt-[1.13rem]">2018</button>
+                        <p class="w-[23.38rem] h-[2.13rem] mt-[1rem] text-[#8695A4]">Typography</p>
+                    </div>
+                    <p class="w-[37.13rem] h-[5.81rem] mt-[1.2rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+            <!-- line break  -->
+            <img src="./image/line.svg" alt="" class="mt-[0.94rem]">
+            <!-- footer  -->
+            <div class="w-[100%] h-[11.38rem] mt-[5.19rem]">
+                <div class="w-[14.5rem] h-[4.81rem] mx-auto mt-[3.19rem]">
+                    <div class="w-[100%] h-[1.88rem] flex justify-between">
+                        <a href="">
+                            <img src="./image/f.svg" alt="" class="w-[1.88rem]">
+                        </a>
+                        <a href="">
+                            <img src="./image/i.svg" alt="" class="w-[1.88rem]">
+                        </a>
+                        <a href="">
+                            <img src="./image/t.svg" alt="" class="w-[2.31rem]">
+                        </a>
+                        <a href="">
+                            <img src="./image/l.svg" alt="" class="w-[1.88rem]">
+                        </a>
+                    </div>
+                    <div class="w-[13.88rem] h-[1.31rem] mx-auto">
+                        <p class="text-[#21243D] text-xs mt-[1.63rem] w-[100%] mx-auto">Copyright ©2020 All rights reserved </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- third section in small screen -->
+    <section class="lg:hidden pt-[0.94rem]">
+        <div class="w-[7.75rem] h-[3.75rem] mx-auto">
+            <a href="#" class=" mt-[1.5rem] font-medium">Featured works</a>
+        </div>
+        <div class="w-[21.5rem] h-[28.44rem] mx-auto">
+            <div class="w-[21.5rem] h-[14.38rem]">
+                <img src="./image/rec1.svg" alt="" class="w-[21.19rem] h-[100%] m-0"></div>
+            <div class="w-[37.13rem] h-[11.25rem]">
+                <p class="w-[19.06rem] h-[2.75rem] font-bold text-xl mt-[1.06rem]">Designing Dashboards</p>
+                <div class="flex gap-[1.63rem]">
+                    <button class="w-[3.88rem] h-[1.56rem] bg-[#142850] text-white rounded-[1rem] mt-[1rem]">2020</button>
+                    <p class="w-[4.88rem] h-[1.5rem] mt-[1rem] text-[#8695A4]">Dashboard</p>
+                </div>
+                <p class="w-[21.5rem] h-[6rem] mt-[1.5rem]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+            <!-- line break  -->
+            <hr class="w-[21.5rem] mt-[2.2rem]">
+        </div>
+        <!-- footer  -->
+        <div class="w-[100%] h-[11.38rem] mt-[9.38rem]">
+                <div class="w-[14.5rem] h-[4.81rem] mx-auto mt-[3.19rem]">
+                    <div class="w-[100%] h-[1.88rem] flex justify-between">
+                        <a href="">
+                            <img src="./image/f.svg" alt="" class="w-[1.88rem]">
+                        </a>
+                        <a href="">
+                            <img src="./image/i.svg" alt="" class="w-[1.88rem]">
+                        </a>
+                        <a href="">
+                            <img src="./image/t.svg" alt="" class="w-[2.31rem]">
+                        </a>
+                        <a href="">
+                            <img src="./image/l.svg" alt="" class="w-[1.88rem]">
+                        </a>
+                    </div>
+                    <div class="w-[13.88rem] h-[1.31rem] mx-auto">
+                        <p class="text-[#21243D] text-xs mt-[1.63rem] w-[100%] mx-auto">Copyright ©2020 All rights reserved </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <script src="./src/main.js"></script>
+</body>
+</html>
